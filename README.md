@@ -12,6 +12,31 @@ A lightweight C utility that detects permission errors in command outputs and of
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/mayberoot
+git clone https://github.com/aidanyn/mayberoot
 cd mayberoot
 make && sudo make install
+```
+
+## Usage
+```bash
+mayberoot <command> [args...]
+
+# Example
+mayberoot touch /etc/protected_file
+```
+
+## Building from Source
+Requires
+ - C compiler (gcc/clang)
+ - GNU Make
+
+```bash
+make debug  # Build with debug symbols
+make test   # Run test suite 
+```
+
+## Contributing 
+PRs welcome! Please do!
+
+## License
+MIT © [Aidan Young] - See [LICENSE](./LICENSE) for details.

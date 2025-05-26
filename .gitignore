@@ -1,0 +1,27 @@
+# Binaries
+*.o
+*.a
+*.so
+*.out
+bin/
+build/
+mayberoot
+
+# Build systems
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*~
+*.dSYM/
+
+# Local test files
+/tmp/
+/test/
